@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+  display: block;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+  font-family: monaco, "Lucia Console", monospace;
+}
+
+.icon {
+  background-color: white;
+  border: 2px solid lightblue;
+  border-style: ridge;
+  font-color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Open Sans", monaco, "Lucida Console", monospace;
+  outline: 1px solid lightblue;
+  outline-offset: 2px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: justify;
+}
+.icon img{
+  position: absolute;
+  margin-left: 5px;
+  margin-right: 50px;
+  float: right;
+}
+h2.js-h2{
+  font-size: 12px;
+  font-family: monaco, "Lucida Console", monospace;
+  padding-left: 6px;
+  text-align: justify;
+}
+
+form{
+  font-size:13px;
+  text-align: justify;
+}
+
+.flexcontainer{
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+li{
+  color: inherit;
+  list-style-type: none;
+}
+ul{
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+}
+
+ul li{
+  border-style: double;
+  border-color: #aae2e2 lightyellow #aae2e2 lightyellow;
+  border-width: thin thick;
+  color: inherit;
+  color: black;
+  padding: 4px 32px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  outline: 2px solid lightblue;
+  outline-offset: 1px;
+  background-color:#c9d6d8;
+  text-decoration: none;
+}
+ul li a{
+  background-color: #061e4f;
+  text-decoration: none;
+}
+ul li:hover{
+  border-style: double;
+  border-color: #aae2e2 lightblue #aae2e2 lightblue;
+  border-width: thin medium;
+  color: inherit;
+  color: #060c35;
+  outline: 2px solid royalblue;
+  outline-offset: 1px;
+  background-color: #abbada;
+  text-decoration: none;
+}
+
+input{
+  background-color: #b3b7b7;
+  font-size: 14px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #31417c;
+  padding: 4px 186px;
+  cursor: pointer;
+}
+
+.form-style-heading{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  font-family: "Swiss", Helvetica;
+  border-bottom: 2px solid gainsboro;
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+}
+
+#frm1{
+  font-family: "Swiss", Helvetica;
+  font-size: 15px;
+}
+h3{
+  border-bottom: 2px solid gainsboro;
+}
+p{
+  font-family: "Swiss", Helvetica;
+  font-size: 15px;
+}
+button{
+  background-color: #c9d6d8;
+  font-size: 14px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #31417c;
+  padding: 4px 186px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #105b66;
+  border: 2px solid white;
+}
+
+.paragraph{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#footer{
+  font-size: 6px;
+  font-family: Arial;
+  margin: 0 auto;
+}
